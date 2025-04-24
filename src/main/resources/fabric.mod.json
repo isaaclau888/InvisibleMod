@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "invisiblemod",
+	"version": "${version}",
+	"name": "InvisibleMod",
+	"description": "Invisible Mod by isaaclau888",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/invisiblemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"isaaclau888.invisiblemod.InvisibleMod"
+		],
+		"fabric-datagen": [
+			"isaaclau888.invisiblemod.InvisibleModDataGenerator"
+		],
+		"client": [
+			"isaaclau888.invisiblemod.InvisibleModClient"
+		]
+	},
+	"mixins": [
+		"invisiblemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
