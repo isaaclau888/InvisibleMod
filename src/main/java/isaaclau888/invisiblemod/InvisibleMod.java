@@ -1,5 +1,6 @@
 package isaaclau888.invisiblemod;
 
+import isaaclau888.invisiblemod.block.ModBlocks;
 import isaaclau888.invisiblemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class InvisibleMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

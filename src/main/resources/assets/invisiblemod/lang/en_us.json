@@ -1,4 +1,7 @@
 {
   "item.InvisibleMod.fluorite": "Fluorite",
-  "item.InvisibleMod.raw_fluorite": "Raw Fluorite"
+  "item.InvisibleMod.raw_fluorite": "Raw Fluorite",
+
+  "block.InvisibleMod.pink_garnet_block": "Block of Pink Garnet",
+  "block.InvisibleMod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
 }
